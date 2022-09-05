@@ -5,8 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 # Adding the chrome driver to environment path
-os.environ['PATH'] += "C:/Users/Naveen/Desktop/Internship/FLASK/chromedriver_win32"
-driver = webdriver.Chrome()
+driver = webdriver.Chrome("C:/Users/manir/Downloads/chrome/chromedriver.exe")
 driver.get("http://localhost:9000/login")
 driver.maximize_window()
 
